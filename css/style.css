@@ -123,6 +123,80 @@ footer{
     background-color: #26408B;
     transform: scale(1.1);
 }
+/*BIOGRAFÍA*/
+.title-row{
+    margin: 30px;
+}
+h1{
+    text-align: center;
+    font-family: Baskerville;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+    color: #ffffff;
+}
+.bio-row{
+    background-image: url(../assets/images/bio-background.jpg);
+    background-size: 100%;
+    margin: 10px;
+}
+.bio-text-container{
+    padding: 5%;
+}
+.bio-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bio-titles{
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 30px;
+    color: #ffffff;
+}
+.bio-content{
+    font-family: montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 30px;
+    color: #ffffff;
+}
+.bio-img{
+    width: 300px;
+}
+
+/*BIOGRAFÍA/
+.biografia{
+    width: 100%;
+    margin-bottom: 80px;
+}
+.biografia h1{
+    height: 250px;
+    text-align: center;
+    padding: 100px 150px;
+    font-family: Baskerville;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+    color: #ffffff;
+}
+.bio-seccion{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px 20px;
+    background-image: url(../assets/images/bio-background.jpg);
+    background-size: 100%;
+}
+.bio-seccion div{
+    width: 50%;
+}
+
+
+
 /*Discografia/
 .card-container{
     display: flex;
@@ -196,53 +270,7 @@ footer{
     text-decoration: none;
 }
 
-/*BIOGRAFÍA/
 
-.biografia{
-    width: 100%;
-    margin-bottom: 80px;
-}
-.biografia h1{
-    height: 250px;
-    text-align: center;
-    padding: 100px 150px;
-    font-family: Baskerville;
-    font-size: 25px;
-    font-style: italic;
-    font-weight: 600;
-    color: #ffffff;
-}
-.bio-seccion{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 20px 20px;
-    background-image: url(../assets/images/bio-background.jpg);
-    background-size: 100%;
-}
-.bio-seccion div{
-    width: 50%;
-}
-.bio-seccion h2{
-    font-family: montserrat;
-    font-size: 20px;
-    font-weight: 900;
-    padding-left: 30px;
-    color: #ffffff;
-}
-.bio-seccion p{
-    font-family: montserrat;
-    font-size: 15px;
-    font-weight: 500;
-    padding-left: 50px;
-    color: #ffffff;
-}
-.bio-seccion img{
-    width: 450px;
-    margin: 20px;
-}
 
 /*Shows*/
 
