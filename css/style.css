@@ -1,0 +1,248 @@
+@font-face{
+    font-family:'AuroraFont';
+    src:url('../assets/fonts/edda.ttf')
+}
+@font-face{
+    font-family:'Baskerville';
+    src:url('../assets/fonts/Baskerville-Italic.ttf')
+}
+body{
+    background-color: #0D0221;
+}
+/*Nav bar*/
+.logoheader {
+    width: 200px;
+    height: 40px;
+}
+.logoheader:hover{
+    transform: scale(1.10);
+}
+.navstyle{
+    background-color: #26408B;
+    opacity: 0.90;
+}
+.navbar-links{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    width: 100%;
+}
+.navbar-items{
+    font-family: Montserrat;
+    font-size:medium;
+    color: #ffffff;
+    margin: 0px 30px;
+}
+.navbar-items:hover{
+    color: #a6cfd5;
+    padding-bottom: 10px;
+    border-bottom: 2px #ffffff solid;
+}
+/*Footer */
+footer{
+    background-color: #26408B;
+    opacity: 0.90;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footermedia{
+    padding: 0px;
+    margin-top: 10px;
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footermedia li img{
+    width: 70%;
+}
+.footermedia li img:hover{
+    transform: scale(1.05);
+}
+/* Main page*/
+.bannermain{
+    max-width: 100%;
+}
+.bannermain-md{
+    max-width: 100%;
+}
+@media (min-width:768px){
+    .bannermain-md{
+        display: none;
+    }
+}
+@media (max-width:768px){
+    .bannermain{
+        display: none;
+        }
+}
+.main-media{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main-ig{
+    border-radius: 10px;
+    height: 340px;
+    margin: 10px 20px;
+}
+.main-yt{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.ratio {
+    width: 80%;
+}
+.main-media p{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 10px;
+    color: #ffffff;
+    border-bottom: #ffffff 5px solid;
+}
+.merch-card{
+    background-color: #0f084b;
+    border-radius: 20px;
+    margin: 10px 20px;
+}
+.merch-card:hover{
+    background-color: #26408B;
+    transform: scale(1.1);
+}
+/*Discografia/
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.discografia-intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px 20px;
+}
+.discografia-intro h1{
+    font-family: montserrat;
+    font-size: 50px;
+    font-weight: 900;
+    padding-left: 30px;
+    color: #ffffff;
+}
+.discografia-intro h2{
+    font-family: montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 50px;
+    color: #ffffff;
+}
+.discografia-intro img{
+    width: 450px;
+    margin: 20px;
+}
+.card{
+    width: 300px;
+    margin: 20px 20px;
+    border-radius: 20px;
+    background-color: #dbdadd;
+}
+.card:hover{
+    transform: scale(1.01);
+}
+.card-image{
+    border-radius: 20px 20px 0px 0px;
+}
+.card h2{
+    font-family: montserrat;
+    font-size: large;
+    font-weight: 900;
+    color: #0d0d0d;
+    margin: 5px;
+    text-align: center;
+}
+.card h3{
+    font-family: montserrat;
+    font-size:small;
+    font-weight: 700;
+    color: #0f084b;
+    margin: 5px;
+    text-align: center;
+}
+.card p{
+    font-family: montserrat;
+    font-size:small;
+    font-weight: 600;
+    color: #000000;
+    margin: 5px;
+    text-align: center;
+}
+.card a{
+    text-decoration: none;
+}
+
+/*BIOGRAFÍA/
+
+.biografia{
+    width: 100%;
+    margin-bottom: 80px;
+}
+.biografia h1{
+    height: 250px;
+    text-align: center;
+    padding: 100px 150px;
+    font-family: Baskerville;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+    color: #ffffff;
+}
+.bio-seccion{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px 20px;
+    background-image: url(../assets/images/bio-background.jpg);
+    background-size: 100%;
+}
+.bio-seccion div{
+    width: 50%;
+}
+.bio-seccion h2{
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 30px;
+    color: #ffffff;
+}
+.bio-seccion p{
+    font-family: montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 50px;
+    color: #ffffff;
+}
+.bio-seccion img{
+    width: 450px;
+    margin: 20px;
+}
+
+/*Shows*/
+
