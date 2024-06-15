@@ -166,38 +166,7 @@ h1{
     width: 300px;
 }
 
-/*BIOGRAFÍA/
-.biografia{
-    width: 100%;
-    margin-bottom: 80px;
-}
-.biografia h1{
-    height: 250px;
-    text-align: center;
-    padding: 100px 150px;
-    font-family: Baskerville;
-    font-size: 25px;
-    font-style: italic;
-    font-weight: 600;
-    color: #ffffff;
-}
-.bio-seccion{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 20px 20px;
-    background-image: url(../assets/images/bio-background.jpg);
-    background-size: 100%;
-}
-.bio-seccion div{
-    width: 50%;
-}
-
-
-
-/*Discografia/
+/*Discografia*/
 .card-container{
     display: flex;
     flex-wrap: wrap;
@@ -216,19 +185,23 @@ h1{
     font-family: montserrat;
     font-size: 50px;
     font-weight: 900;
-    padding-left: 30px;
     color: #ffffff;
 }
 .discografia-intro h2{
     font-family: montserrat;
     font-size: 15px;
     font-weight: 500;
-    padding-left: 50px;
     color: #ffffff;
 }
 .discografia-intro img{
     width: 450px;
     margin: 20px;
+}
+@media (max-width:500px) {
+    .discografia-intro img{
+        width: 80%;
+        margin: 20px;
+    }      
 }
 .card{
     width: 300px;
