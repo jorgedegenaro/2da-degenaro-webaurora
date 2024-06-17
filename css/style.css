@@ -307,3 +307,7 @@ h2{
 .spotifyembed{
     height: 100%;
 }
+
+.carousel-inner{
+    border-radius: 12px;
+}
