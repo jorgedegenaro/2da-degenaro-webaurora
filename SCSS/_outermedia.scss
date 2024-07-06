@@ -1,0 +1,41 @@
+.main{
+    &-media{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+        h2{
+            display: block;
+            width: 100%;
+            margin-bottom: 20px;
+            text-align: center;
+            font-family: montserrat;
+            font-size: 30px;
+            font-weight: 900;
+            padding-bottom: 10px;
+            color: #ffffff;
+            border-bottom: #ffffff 5px solid;
+        }
+    }
+    &-ig{
+        border-radius: 10px;
+        height: 340px;
+        margin: 10px 20px;
+    }
+    &-yt{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+}
+.ratio {
+    width: 80%;
+}
+.spotifyembed{
+    height: 100%;
+}
+

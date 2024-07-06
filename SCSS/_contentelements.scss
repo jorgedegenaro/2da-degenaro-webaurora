@@ -1,0 +1,39 @@
+//Bio
+.bio-img{
+    width: 300px;
+}
+
+//Shows
+.show-banner img{
+    width: 100%;
+}
+.ticket{
+    border: none;
+    border-radius: 3px;
+    width: 70%;
+    font-family: Montserrat;
+}
+.ticket:hover{
+    background-color: #26408B;
+    color: #ffffff;
+}
+//Disco
+.discografia-intro img{
+    width: 450px;
+    margin: 20px;
+}
+.carousel-inner{
+    border-radius: 12px;
+}
+.navigate-records{
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 900;
+    color: #ffffff;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}

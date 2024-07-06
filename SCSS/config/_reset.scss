@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+}
+@font-face{
+    font-family:'AuroraFont';
+    src:url('../assets/fonts/edda.ttf')
+}
+@font-face{
+    font-family:'Baskerville';
+    src:url('../assets/fonts/Baskerville-Italic.ttf')
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #0D0221;
+}

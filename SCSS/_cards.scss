@@ -1,0 +1,51 @@
+.merch-card{
+    background-color: #0f084b;
+    border-radius: 20px;
+    margin: 10px 20px;
+
+        &:hover{
+        background-color: #26408B;
+        transform: scale(1.1);
+        }
+}
+
+.card{
+    width: 300px;
+    margin: 20px 20px;
+    border-radius: 20px;
+    background-color: #dbdadd;
+
+        &:hover{
+            transform: scale(1.01);
+        }
+    &-image{
+    border-radius: 20px 20px 0px 0px;
+    }
+    h2{
+        font-family: montserrat;
+        font-size: large;
+        font-weight: 900;
+        color: #0d0d0d;
+        margin: 5px;
+        text-align: center;
+    }
+    h3{
+        font-family: montserrat;
+        font-size:small;
+        font-weight: 700;
+        color: #0f084b;
+        margin: 5px;
+        text-align: center;
+    }
+    p{
+        font-family: montserrat;
+        font-size:small;
+        font-weight: 600;
+        color: #000000;
+        margin: 5px;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+}
