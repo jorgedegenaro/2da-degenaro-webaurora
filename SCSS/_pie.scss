@@ -1,8 +1,7 @@
 footer{
-    background-color: #26408B;
+    @include sizes(100%,75px);
+    background-color: map-get($colors, light-background);
     opacity: 0.90;
-    width: 100%;
-    height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;

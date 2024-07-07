@@ -1,47 +1,20 @@
 h1{
+    font: $title-font;
     text-align: center;
-    font-family: Montserrat;
-    font-size: 3em;
-    font-weight: 900;
-    color: #ffffff;
+    color: map-get($colors, regular-font);
 }
 h2{
+    font: $subtitle-font;
     text-align: center;
-    font-family: Montserrat;
-    font-size: 2em;
-    font-weight: 700;
-    color: #ffffff;
+    color: map-get($colors, regular-font);
 }
 h3{
+    font:$section-title-font;
     text-align: center;
-    font-family: Montserrat;
-    font-size: 1.5em;
-    font-style: italic;
-    font-weight: 600;
-    color: #ffffff;
+    color: map-get($colors, regular-font);
 }
 p{
-    font-family: montserrat;
-    font-size: 1em;
-    font-weight: 300;
-    padding-left: 30px;
-    color: #ffffff;
-}
-.discografia-intro h1{
-    font-family: montserrat;
-    font-size: 50px;
-    font-weight: 900;
-    color: #ffffff;
-}
-.discografia-intro h2{
-    font-family: montserrat;
-    font-size: 15px;
-    font-weight: 500;
-    color: #ffffff;
-}
-.showdata{
-    font-family: montserrat;
-    font-size: 15px;
-    font-weight: 700;
-    color: #ffffff;
+    font:$text-font;
+    padding: 10px;
+    color: map-get($colors, regular-font);
 }

@@ -1,6 +1,8 @@
 //Reset
-
 @import './config/reset';
+@import './config/vars';
+@import './config/mixins';
+
 
 //Layout
 @import './navbar';

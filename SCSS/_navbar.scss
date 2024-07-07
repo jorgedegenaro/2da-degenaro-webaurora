@@ -1,12 +1,11 @@
 .logoheader {
-    width: 200px;
-    height: 40px;
+    @include sizes(200px,40px);
         &:hover{
             transform: scale(1.10);
         }
 }
 .navstyle{
-    background-color: #26408B;
+    background-color: map-get($colors, light-background);
     opacity: 0.90;
 }
 .navbar{
@@ -17,13 +16,12 @@
         width: 100%;
         }
     &-items{
-        font-family: Montserrat;
-        font-size:medium;
-        color: #ffffff;
+        font: $navbar-font;
+        color: map-get($colors, regular-font);
         margin: 0px 30px;
     
             &:hover{
-            color: #a6cfd5;
+            color: map-get($colors, hover-font);
             padding-bottom: 10px;
             border-bottom: 2px #ffffff solid;
         }

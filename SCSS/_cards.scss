@@ -1,10 +1,9 @@
 .merch-card{
-    background-color: #0f084b;
+    background-color: map-get($colors, card-background);
     border-radius: 20px;
     margin: 10px 20px;
 
         &:hover{
-        background-color: #26408B;
         transform: scale(1.1);
         }
 }
@@ -13,7 +12,7 @@
     width: 300px;
     margin: 20px 20px;
     border-radius: 20px;
-    background-color: #dbdadd;
+    background-color: map-get($colors, card-background);
 
         &:hover{
             transform: scale(1.01);
@@ -22,26 +21,20 @@
     border-radius: 20px 20px 0px 0px;
     }
     h2{
-        font-family: montserrat;
-        font-size: large;
-        font-weight: 900;
-        color: #0d0d0d;
+        font:$card-title-font;
+        color: map-get($colors, card-title-font);
         margin: 5px;
         text-align: center;
     }
     h3{
-        font-family: montserrat;
-        font-size:small;
-        font-weight: 700;
-        color: #0f084b;
+        font:$card-subtitle-font;
+        color: map-get($colors, card-subtitle-font);
         margin: 5px;
         text-align: center;
     }
     p{
-        font-family: montserrat;
-        font-size:small;
-        font-weight: 600;
-        color: #000000;
+        font:$card-text-font;
+        color: map-get($colors, card-text-font);
         margin: 5px;
         text-align: center;
     }
