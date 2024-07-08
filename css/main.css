@@ -357,6 +357,16 @@ p {
     display: none;
   }
 }
+@media (max-width: 992px) {
+  .bio-responsive-wide {
+    display: none;
+  }
+}
+@media (min-width: 991px) {
+  .bio-responsive-narrow {
+    display: none;
+  }
+}
 @media (max-width: 500px) {
   .discografia-intro img {
     width: 80%;
