@@ -1,0 +1,33 @@
+.aurora-animation {
+    animation-name: aparece;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes aparece {
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 100%;
+    }
+}
+
+.title-animation {
+    animation-name: rotacion;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes rotacion {
+    from {
+      transform: scale(0) rotatey(0deg);
+    }
+    to {
+      transform: scale(1) rotate(360deg);
+    }
+}
