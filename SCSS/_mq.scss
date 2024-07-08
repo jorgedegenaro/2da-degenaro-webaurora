@@ -1,12 +1,12 @@
 
 //Bio
 @media (max-width:992px){
-    .bio-responsive-wide{
+    .container-animacion{
         display: none;
     }
 }
 @media (min-width:991px){
-    .bio-responsive-narrow{
+    .container-animacion-sm{
         display: none;
     }
 }
