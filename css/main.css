@@ -37,7 +37,6 @@ body {
   margin-top: 0px;
   position: fixed;
   width: 100%;
-  height: 60px;
   z-index: 1;
 }
 .navbar-links {
@@ -356,6 +355,12 @@ main {
   }
   to {
     transform: scale(1) rotate(360deg);
+  }
+}
+@media (min-width: 992px) {
+  .navbar {
+    width: 100%;
+    height: 60px;
   }
 }
 @media (max-width: 992px) {

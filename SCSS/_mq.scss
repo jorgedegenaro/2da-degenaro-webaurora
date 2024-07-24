@@ -1,4 +1,11 @@
 
+//Navbar
+@media (min-width:992px){
+    .navbar{
+        @include sizes (100%,60px);
+    }
+}
+    
 //Home
 @media (max-width:992px){
     .container-animacion{
