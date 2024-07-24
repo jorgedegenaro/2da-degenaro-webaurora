@@ -1,3 +1,4 @@
+
 .logoheader {
     @include sizes(200px,40px);
         &:hover{
@@ -9,6 +10,11 @@
     opacity: 0.90;
 }
 .navbar{
+    margin-top: 0px;
+    position: fixed;
+    @include sizes (100%,60px);
+    z-index: 1;
+
     &-links{
         display: flex;
         justify-content:flex-end;

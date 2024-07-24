@@ -33,6 +33,13 @@ body {
   opacity: 0.9;
 }
 
+.navbar {
+  margin-top: 0px;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  z-index: 1;
+}
 .navbar-links {
   display: flex;
   justify-content: flex-end;
@@ -182,6 +189,10 @@ p {
   text-decoration: none;
 }
 
+main {
+  padding-top: 60px;
+}
+
 .container-animacion {
   display: grid;
   width: 100%;
@@ -230,7 +241,7 @@ p {
 .title-row {
   margin: 30px;
 }
- 
+
 .bio-row {
   background-image: url(../assets/images/bio-background.jpg);
   background-size: 100%;

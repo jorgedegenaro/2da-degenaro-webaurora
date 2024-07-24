@@ -1,10 +1,14 @@
+//Navbar
+main{
+    padding-top: 60px;
+}
 //Home
 .container-animacion{
     display: grid;
     width: 100%;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(6, 1fr);
-
+    
     img{
         width: 100%;
     }
